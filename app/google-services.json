@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "101639116327",
+    "firebase_url": "https://turistikus-b77fe.firebaseio.com",
+    "project_id": "turistikus-b77fe",
+    "storage_bucket": "turistikus-b77fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101639116327:android:ed35a0c20e96f98fc46002",
+        "android_client_info": {
+          "package_name": "com.johnsjohnny.turistikus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101639116327-75e5ml7tgennioppd7c4tkitjhct7gkf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.johnsjohnny.turistikus",
+            "certificate_hash": "77cc30ffa7ca7759d5bd5110bb7c0e4753460f4b"
+          }
+        },
+        {
+          "client_id": "101639116327-oemgi27pe479n3u37agequhkcpsdrj0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2bkxknjxw0Df65tyFF2h_J7N7qS4ux2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101639116327-oemgi27pe479n3u37agequhkcpsdrj0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

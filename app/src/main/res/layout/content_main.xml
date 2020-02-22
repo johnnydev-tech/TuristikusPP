@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/IVCidade"
+                android:layout_width="wrap_content"
+                android:layout_height="133dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/conhecacidade" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/IVGastronomia"
+                    android:layout_width="200dp"
+                    android:layout_height="134dp"
+                    android:layout_marginLeft="4dp"
+                    app:srcCompat="@drawable/gastronomia" />
+
+                <ImageView
+                    android:id="@+id/IVhosp"
+                    android:layout_width="200dp"
+                    android:layout_height="134dp"
+                    app:srcCompat="@drawable/hospedagem" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/IVEducacao"
+                        android:layout_width="200dp"
+                        android:layout_height="134dp"
+                        android:layout_marginLeft="4dp"
+                        app:srcCompat="@drawable/educacao" />
+
+                    <ImageView
+                        android:id="@+id/IVMercado"
+                        android:layout_width="200dp"
+                        android:layout_height="134dp"
+                        app:srcCompat="@drawable/mercado" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/IVPresente"
+                        android:layout_width="200dp"
+                        android:layout_height="134dp"
+                        android:layout_marginLeft="4dp"
+                        app:srcCompat="@drawable/presente" />
+
+                    <ImageView
+                        android:id="@+id/IVTecnologia"
+                        android:layout_width="200dp"
+                        android:layout_height="134dp"
+                        app:srcCompat="@drawable/tecnologia" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/IVServico"
+                        android:layout_width="200dp"
+                        android:layout_height="134dp"
+                        android:layout_marginLeft="4dp"
+                        app:srcCompat="@drawable/servicos" />
+
+                    <ImageView
+                        android:id="@+id/IVVeiculo"
+                        android:layout_width="200dp"
+                        android:layout_height="134dp"
+                        app:srcCompat="@drawable/veiculos" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/IVSaude"
+                        android:layout_width="200dp"
+                        android:layout_height="134dp"
+                        android:layout_marginLeft="4dp"
+                        app:srcCompat="@drawable/saude" />
+
+                    <ImageView
+                        android:id="@+id/IVPosto"
+                        android:layout_width="200dp"
+                        android:layout_height="134dp"
+                        app:srcCompat="@drawable/posto" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
